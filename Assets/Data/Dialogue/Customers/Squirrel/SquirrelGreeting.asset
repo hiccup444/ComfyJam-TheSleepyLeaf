@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8190e47fb502479ce5535f0d3cb00, type: 3}
+  m_Name: SquirrelGreeting
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: SquirrelGreeting
+  lines:
+  - "Hi hi! Smells nutty in here \u2014 in a good way!"
+  - "Oh! You\u2019re open! And I\u2019m starving. Well, politely starving."
+  - "Greetings! I came as soon as I heard the rustling of leaves\u2026 and the scent
+    of tea."
+  - My grandma just passed away and we are arguing about the will! I need a drink
+    to distract myself.
+  - My place has been absolute chaos! Ugh, you know how hibernation season gets.
+    I wish my family would listen to me! Anyways.
+  - I have an insane headache right now. I need a drink!
+  - I've been running around all day - it's been so busy! Glad I could stop by for
+    a drink.
+  - I can't remember where I put my emergency acorn stash and it's stressing me out.
+    I need a drink.
+  isPlayerInteractable: 0

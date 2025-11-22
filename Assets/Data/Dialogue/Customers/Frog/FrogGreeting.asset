@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8190e47fb502479ce5535f0d3cb00, type: 3}
+  m_Name: FrogGreeting
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: FrogGreeting
+  lines:
+  - Ribbit! Got a minute to make me something warm?
+  - "Morning! The pond was chilly\u2014mind brewing me a drink?"
+  - "Hi there! Thought I\u2019d hop in for a cup of comfort."
+  - "I\u2019ve been having trouble sleeping because I keep dreaming of my boyfriend
+    cheating on me! A drink will make me feel better."
+  - '[Hiccup!] I just need a - [hiccup!] - drink, please.'
+  - 'Ooh, it''s so nice and warm in here. I hope your drinks are good. '
+  - 'I''m all muddy from trying to find a good hibernation spot. Could I get a drink
+    to warm me up? '
+  - My throat's sore from karaoke last night. Got a drink that could help?
+  isPlayerInteractable: 0

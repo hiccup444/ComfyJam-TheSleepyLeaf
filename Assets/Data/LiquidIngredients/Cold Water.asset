@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430f2ba6d1ba2744b93b2d2ff90e98b9, type: 3}
+  m_Name: Cold Water
+  m_EditorClassIdentifier: Assembly-CSharp::LiquidIngredient
+  tint: {r: 0.43137258, g: 0.6745098, b: 0.69411767, a: 1}
+  inCupSprite: {fileID: 21300000, guid: df202aef3843f6a44a13941bfc72903f, type: 3}
+  streamSprite: {fileID: 21300000, guid: 2aa0c98005e65d343b28eccf640d5302, type: 3}
+  targetFill: 1
+  fillSeconds: 1
+  additive: 0
+  sfxStart: {fileID: 0}
+  sfxStop: {fileID: 0}
+  shimmerEnabled: 1
+  overlayAlpha: 0.4
+  shimmerSpeed: 4
+  swayXY: {x: 0.01, y: 0.02}
+  yStretch: 0.04

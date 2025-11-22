@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8190e47fb502479ce5535f0d3cb00, type: 3}
+  m_Name: FrogHappy
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: FrogHappy
+  lines:
+  - "Ohh, this is perfect! You\u2019ve got a real talent for tea!"
+  - "That hits the spot\u2014exactly how I like it!"
+  - Ribbit, delicious! I knew I could count on you.
+  - "Wow, I\u2019ll definitely recommend this place to my friends."
+  - I could swallow this mug whole.
+  isPlayerInteractable: 0

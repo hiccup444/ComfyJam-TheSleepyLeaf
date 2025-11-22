@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69d2cff3e2bc294797d3a2b729d795c, type: 3}
+  m_Name: Bee
+  m_EditorClassIdentifier: Assembly-CSharp::CustomerData
+  customerName: Bee
+  customerPrefab: {fileID: 5528202570020950391, guid: e94d36813bfde5647aa4da4c91d77adc, type: 3}
+  greetingDialogue: {fileID: 11400000, guid: 837fb6922923d0241bd6182e85624b23, type: 2}
+  happyDialogue: {fileID: 11400000, guid: 07bc61580683b5d49b3f1241a5e7a115, type: 2}
+  disappointedDialogue: {fileID: 11400000, guid: d91de749d7b8b8748855932d4e8360d2, type: 2}
+  dialogSpeechSettings: {fileID: 11400000, guid: bbfde3aa0ae5bb748b276b221ed27176, type: 2}
+  tutorialDialogues: []
+  preferredOrders:
+  - orderName: Hot_Chamomile_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: e4bb25e715e64b148aea8fd0bf9d5474, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 7dbd6977f5de3c843a404bfa6620ea5d, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 84be7e534330ae543bba7135e4bfc726, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: 3783c157748453e4ab7ae031fb6bd96b, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 34290d19ccc40bc45b82968026b5cfe8, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: f9e26f7ec7572794e989d7d6ccc3b7e7, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: 6da3bd3a96c9c5243bf090509042b284, type: 2}
+  - orderName: Hot_Chamomile_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 464cb0bfd1a6d724bbc70b8f4c0b2cb5, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: cc165cae6f627124c87b37571b6e348c, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 0509ce451e9a8964592e0f48e40d8201, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 749dd823c92d1af46908b92a2f03896d, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: bafbcae727db92f4b88b392e9c549d12, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: be19b41ee79934b428f95e6b971b3f06, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: 7cd1863b017211b47824f87451e9c344, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: f0033a50aa0b4164eb9b41c043bf72f4, type: 2}
+  - orderName: Iced_Chamomile_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: f97810e49b76fbd4996802f6a2a8fbc8, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: 05618f1966b0cd141a2da3903fcae9b8, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 7c74b374c2e03ff41ba7d26da6e4ce7d, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 2ae2f02e243965b4c988fc23ed309771, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: f505d6885fcd90f45a6b135cef495430, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 15cfc9c9a92ec3146b37b1517a4bfc21, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: 88d28fce94c30c94e9d9498dc5af79fa, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: 8270fccbe22f8e44587cb83239e71c0f, type: 2}
+  - orderName: Hot_Ginger_Green_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 0f8cb07048e6bf244b2028eca5604ec0, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: c7fecd2f9ee6478489d3f3540c13aac9, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: f1cd07b750e17c7488fe8368301e9dbc, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: a08483de395d09f4d8b10ab55e5e9f12, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: fccd1314d4564c34496c3cf89d2e6e70, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: d4cc199a5b8f5fc42886a840711d96ca, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: 3aba12ec9048f1a43a135d377bc6bea4, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: a3b09fc87137603488fab22ee974a31e, type: 2}
+  - orderName: Iced_Ginger_Green_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 66a261586b23f614192cce3e97a52ace, type: 2}
+  - orderName: Hot_Chocolate_Milk
+    orderDialogue: {fileID: 11400000, guid: ad88dfbbf8cf13348926569decaa8182, type: 2}
+  - orderName: Hot_Chocolate_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: ed8100f4caae9644fa49d167177e17b6, type: 2}
+  - orderName: Hot_Chocolate_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: eb9c9d26dd3ffd34a83e3da30841b000, type: 2}
+  - orderName: Hot_Chocolate_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: d3685c936d923754597688deacf26daa, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: e2baed825cf58ca49872622d495a51d9, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 0ad0f9ce08e216944aca8e5a19ba16a8, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 6504d438a65bca84aa7109fd1ef7a1a8, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: bc6fe3d7674160646b769edc859d07b9, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: b893a6dc6bc49834c8959771c5458d75, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: 1b52abcf88c1a124c8e662ecae013c30, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: 3f2fe56164e5f9d4b9e1616d0103a96e, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 55596d64fd96fef4d898f4601302a1c2, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: f689d4a8ba126a241908b7946a37f901, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: a61eea2007fad694088758a4503b2332, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 4038abfa246735541b0b40227df25156, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: 1df867d31e985204a88ac12ee3a1d663, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 032575f2c72f19e45ae0bcfe2b26937d, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: d09a018b868b34843ac5d296e166b144, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: c69ae97cf763e0743a9cf2efd7a2c1bc, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: eba35fce6f563464893a9172f8378d07, type: 2}
+  - orderName: Hot_London_Fog
+    orderDialogue: {fileID: 11400000, guid: b650b88cc20064446b85839c679ed265, type: 2}
+  - orderName: Hot_London_Fog_Lemon
+    orderDialogue: {fileID: 11400000, guid: c783e7ef4bc7b0a4abaed8591b6743bf, type: 2}
+  - orderName: Hot_London_Fog_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 03c634c4bbafa8e4c8ab84fdcb2c44b0, type: 2}
+  - orderName: Hot_London_Fog_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: efb42b536cda2354ea12bd90d8439ac7, type: 2}
+  - orderName: Hot_London_Fog_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 60ab59fa8bfd2004ab0f7948fd8ba88a, type: 2}
+  - orderName: Hot_London_Fog_Mint
+    orderDialogue: {fileID: 11400000, guid: e94548a422311db49b4c3487304b2b43, type: 2}
+  - orderName: Hot_London_Fog_Rose
+    orderDialogue: {fileID: 11400000, guid: 059176958cff55d4aa95906c1b3450b9, type: 2}
+  - orderName: Hot_London_Fog_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 0d753074ee9fbd841a713333960093f0, type: 2}
+  - orderName: Iced_London_Fog
+    orderDialogue: {fileID: 11400000, guid: 3da8bb62c1ce3b445894918f5f225251, type: 2}
+  - orderName: Iced_London_Fog_Lemon
+    orderDialogue: {fileID: 11400000, guid: 4517ca70960b8f94cb82ba6f498a62ae, type: 2}
+  - orderName: Iced_London_Fog_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 3be31f92267e0db449226e44c0523a2b, type: 2}
+  - orderName: Iced_London_Fog_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: 7c964eb8a8cea144293abfe67abf9528, type: 2}
+  - orderName: Iced_London_Fog_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: c75763c112563704f8e775377471246a, type: 2}
+  - orderName: Iced_London_Fog_Mint
+    orderDialogue: {fileID: 11400000, guid: 3a7a2ef9d9adbac4ca7df27cdb8054e8, type: 2}
+  - orderName: Iced_London_Fog_Rose
+    orderDialogue: {fileID: 11400000, guid: 3d854b274e00f5140b60edb1aa8bfd32, type: 2}
+  - orderName: Iced_London_Fog_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: b7e3450998c260f439f78f9941d61f87, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: afbb91605668db0499878068373c267d, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 7acf5afdf39686748acf1534ac64104e, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: cdd2f6682738e6248a59d1fae65746d1, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: 14e0c34bd8dd3014a9e047c0d925aac2, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 3d03813276af4a54986786a4cce2748c, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: b6c00a73172360d47883e75b844bcba4, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: 63a43e65ca847bb4f868a243fbb35ef6, type: 2}
+  - orderName: Hot_Peppermint_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 149fc6d87b2a5de469a90b66def87f03, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: 53c4f0c65af3a944dbc97a2a8f753e83, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 903b25cd9018ca747af81a69c34216a8, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 1112c3790e4dca941950f3c04e90b7fd, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: d0f9b1803b59c4b4ba055221b70ac937, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 209764605f1f9e04daa7f77121d3d0ef, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: 2abe00fe0c71900409c2e03f4aac6f35, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: 774a85e580b6c5c45a20d42376e65386, type: 2}
+  - orderName: Iced_Peppermint_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 8003a2229361ac54b8bd47e92a0df588, type: 2}
+  patienceTime: 155
+  counterYOffset: 0.2
+  minTipAmount: 35
+  maxTipAmount: 50
+  specialMaxTipAmount: 100

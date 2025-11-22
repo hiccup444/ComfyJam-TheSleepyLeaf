@@ -1,0 +1,20 @@
+    {
+        if (isCutscenePlaying) return;
+        
+        isCutscenePlaying = true;
+
+        // AUDIT LOG: before sequence begins
+        var md = JamesKJamKit.Services.MusicDirector.Instance;
+        var mdState = md != null ? md.CurrentState.ToString() : "<no MusicDirector>";
+        bool expectCutsceneState = md != null && mdState == JamesKJamKit.Services.MusicDirector.MusicState.Cutscene.ToString();
+        Debug.Log($"[CutsceneManager] StartCutscene() | HasPlayedIntroCutscene={GameManager.Instance != null && GameManager.Instance.HasPlayedIntroCutscene()} | MusicDirectorState={mdState} | IsCutsceneStateExpected={expectCutsceneState}");
+        
+        // Calculate timings based on MusicDirector's active audio clip
+        CalculateTimings();
+        
+        // Ensure canvas is active
+        if (cutsceneCanvas != null)
+        {
+            cutsceneCanvas.SetActive(true);
+        }
+        

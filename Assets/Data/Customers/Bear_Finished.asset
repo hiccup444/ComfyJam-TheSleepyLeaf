@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69d2cff3e2bc294797d3a2b729d795c, type: 3}
+  m_Name: Bear_Finished
+  m_EditorClassIdentifier: Assembly-CSharp::CustomerData
+  customerName: Bear
+  customerPrefab: {fileID: 5528202570020950391, guid: 82497a9de66b12249aced573cfbaecd8, type: 3}
+  greetingDialogue: {fileID: 11400000, guid: dc32c99769ea22f49b5f41bf57689508, type: 2}
+  happyDialogue: {fileID: 11400000, guid: 6555a1e0074037947964ef43db4a9d0b, type: 2}
+  disappointedDialogue: {fileID: 11400000, guid: 5993b51986674c74f9b049005978d1e9, type: 2}
+  dialogSpeechSettings: {fileID: 11400000, guid: cf417cc36548c3344832045c24c32893, type: 2}
+  tutorialDialogues: []
+  preferredOrders:
+  - orderName: Hot_Lavender_Tea
+    orderDialogue: {fileID: 11400000, guid: 82e931f9b936f6d488c6166ec4874db8, type: 2}
+  - orderName: Hot_Lavender_Tea_Lemon
+    orderDialogue: {fileID: 11400000, guid: db885a923fc7d5749b58e81bb34f5c79, type: 2}
+  - orderName: Hot_Lavender_Tea_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: f09839928c5d3394cadd2837b9b31f44, type: 2}
+  - orderName: Hot_Lavender_Tea_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: c28508b3a16919146a73e4ace11b02a5, type: 2}
+  - orderName: Hot_Lavender_Tea_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: b82f801331c930a47b9137666a971503, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: e2baed825cf58ca49872622d495a51d9, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: 0ad0f9ce08e216944aca8e5a19ba16a8, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 6504d438a65bca84aa7109fd1ef7a1a8, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: bc6fe3d7674160646b769edc859d07b9, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: b893a6dc6bc49834c8959771c5458d75, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: 1b52abcf88c1a124c8e662ecae013c30, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: 3f2fe56164e5f9d4b9e1616d0103a96e, type: 2}
+  - orderName: Hot_Lavender_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 55596d64fd96fef4d898f4601302a1c2, type: 2}
+  - orderName: Hot_Lavender_Tea_Mint
+    orderDialogue: {fileID: 11400000, guid: dd4a74f1d6a8f7b49af8cc9870b8efcc, type: 2}
+  - orderName: Hot_Lavender_Tea_Rose
+    orderDialogue: {fileID: 11400000, guid: 5b5617943bd29294a8c841077a80b1f3, type: 2}
+  - orderName: Hot_Lavender_Tea_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 9b563d22bda684143a7fdefb14142cdb, type: 2}
+  - orderName: Iced_Lavender_Tea
+    orderDialogue: {fileID: 11400000, guid: 7a5e842a30e408e41aa68c9f310cc90a, type: 2}
+  - orderName: Iced_Lavender_Tea_Lemon
+    orderDialogue: {fileID: 11400000, guid: 649ea12e5a1b4304ab031aa81262b7f3, type: 2}
+  - orderName: Iced_Lavender_Tea_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 23011a741e38efa44b0810016d8d4111, type: 2}
+  - orderName: Iced_Lavender_Tea_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: cf779fc5b1c4c2f40a06f9ed5acae00d, type: 2}
+  - orderName: Iced_Lavender_Tea_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: d042f9f583cf9cd458c3d14973e34453, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk
+    orderDialogue: {fileID: 11400000, guid: f689d4a8ba126a241908b7946a37f901, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon
+    orderDialogue: {fileID: 11400000, guid: a61eea2007fad694088758a4503b2332, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon_Mint
+    orderDialogue: {fileID: 11400000, guid: 4038abfa246735541b0b40227df25156, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon_Rose
+    orderDialogue: {fileID: 11400000, guid: 1df867d31e985204a88ac12ee3a1d663, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Lemon_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 032575f2c72f19e45ae0bcfe2b26937d, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: d09a018b868b34843ac5d296e166b144, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: c69ae97cf763e0743a9cf2efd7a2c1bc, type: 2}
+  - orderName: Iced_Lavender_Tea_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: eba35fce6f563464893a9172f8378d07, type: 2}
+  - orderName: Iced_Lavender_Tea_Mint
+    orderDialogue: {fileID: 11400000, guid: ff907aeb5b8fe6c4d8aad6f34a353611, type: 2}
+  - orderName: Iced_Lavender_Tea_Rose
+    orderDialogue: {fileID: 11400000, guid: b7a18adec53259d42a65080a5d10eb27, type: 2}
+  - orderName: Iced_Lavender_Tea_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: 68cd6a5cc19abc940a61a06d7b0f40ae, type: 2}
+  - orderName: Hot_Chocolate_Milk
+    orderDialogue: {fileID: 11400000, guid: ad88dfbbf8cf13348926569decaa8182, type: 2}
+  - orderName: Hot_Chocolate_Milk_Mint
+    orderDialogue: {fileID: 11400000, guid: ed8100f4caae9644fa49d167177e17b6, type: 2}
+  - orderName: Hot_Chocolate_Milk_Rose
+    orderDialogue: {fileID: 11400000, guid: eb9c9d26dd3ffd34a83e3da30841b000, type: 2}
+  - orderName: Hot_Chocolate_Milk_Rose_Mint
+    orderDialogue: {fileID: 11400000, guid: d3685c936d923754597688deacf26daa, type: 2}
+  patienceTime: 180
+  counterYOffset: 0
+  minTipAmount: 3
+  maxTipAmount: 19
+  specialMaxTipAmount: 20

@@ -1,0 +1,10 @@
+*** Begin Patch
+*** Update File: Assets/Scripts/Systems/Customer/CustomerManager.cs
+@@
+-    }
+-}
+-#endif
++    }
++#endif
++}
+*** End Patch

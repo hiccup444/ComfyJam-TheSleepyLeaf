@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69d2cff3e2bc294797d3a2b729d795c, type: 3}
+  m_Name: TutorialCustomer
+  m_EditorClassIdentifier: Assembly-CSharp::CustomerData
+  customerName: Bear
+  customerPrefab: {fileID: 5528202570020950391, guid: 82497a9de66b12249aced573cfbaecd8, type: 3}
+  greetingDialogue: {fileID: 11400000, guid: a638019f9e6ac454aba04fa7e40a89e2, type: 2}
+  happyDialogue: {fileID: 11400000, guid: 6555a1e0074037947964ef43db4a9d0b, type: 2}
+  disappointedDialogue: {fileID: 11400000, guid: 5993b51986674c74f9b049005978d1e9, type: 2}
+  dialogSpeechSettings: {fileID: 11400000, guid: cf417cc36548c3344832045c24c32893, type: 2}
+  tutorialDialogues:
+  - {fileID: 11400000, guid: de011e6cbb69b51479f24604926b0e41, type: 2}
+  - {fileID: 11400000, guid: fe397a89f94c9ce48b41dd984ec9890e, type: 2}
+  - {fileID: 11400000, guid: 9c7eb8d2b4fd90a4aaaa3960a36e5fa0, type: 2}
+  - {fileID: 11400000, guid: a404e737fafbf5541aad519e01e43d56, type: 2}
+  - {fileID: 11400000, guid: 7ea2bbe64ef3758488e91ad7d8eec5a2, type: 2}
+  - {fileID: 11400000, guid: 9652a7fedec884949b5b10ed5d323efc, type: 2}
+  - {fileID: 11400000, guid: 14c1e3ad908f5d34e988fbb21c3deb85, type: 2}
+  - {fileID: 11400000, guid: d470539e794293741be1969cc3298cc8, type: 2}
+  - {fileID: 11400000, guid: 5a0dc45f1ab1f52408f15118d3c7f9a3, type: 2}
+  - {fileID: 11400000, guid: fbdb5d098ab30fc49a44c9533c09b78d, type: 2}
+  - {fileID: 11400000, guid: b0c2155b7a50b8a45bdd8101ca4677eb, type: 2}
+  - {fileID: 11400000, guid: 924043ad6d592c043a3676c18fdc87bd, type: 2}
+  - {fileID: 11400000, guid: d096a61289f572a4a9d91fd5895d1981, type: 2}
+  - {fileID: 11400000, guid: 5d5e6b749fb553749bb16b3a9d5b4b3d, type: 2}
+  - {fileID: 11400000, guid: 1ba813200d3bee14c86e3f096f3281f4, type: 2}
+  - {fileID: 11400000, guid: 03a9f5fa56707a74298ed30095d676e8, type: 2}
+  - {fileID: 11400000, guid: 65af82eade2b90945adc1fdeaf2c018b, type: 2}
+  - {fileID: 11400000, guid: 704acaa610baa694da548308c4b3a956, type: 2}
+  - {fileID: 11400000, guid: 758ded1b5bd273448886e9eddabadd85, type: 2}
+  - {fileID: 11400000, guid: 736263f761c80f44c9749eac722e681b, type: 2}
+  - {fileID: 11400000, guid: 1c06cb3f4abe5b54190a30116d09d17c, type: 2}
+  - {fileID: 11400000, guid: 36bd5026667b51a4590d5829a1b1d3fa, type: 2}
+  preferredOrders:
+  - orderName: Hot_Lavender_Tea
+    orderDialogue: {fileID: 0}
+  patienceTime: 500
+  counterYOffset: 0
+  minTipAmount: 1
+  maxTipAmount: 2
+  specialMaxTipAmount: 10

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8190e47fb502479ce5535f0d3cb00, type: 3}
+  m_Name: TurtleHappy
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: TurtleHappy
+  lines:
+  - Perfect. Just the way I like it. Worth the journey.
+  - "Mmm\u2026 slow and steady does make the best tea."
+  - "Thank you. You\u2019ve earned a place in my memories \u2014 and I live a very
+    long time."
+  - You're absolutely great at what you do.
+  - You brought a lot of joy to my day today. Thank you.
+  isPlayerInteractable: 0

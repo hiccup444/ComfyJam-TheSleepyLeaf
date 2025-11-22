@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8190e47fb502479ce5535f0d3cb00, type: 3}
+  m_Name: BeeHappy
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: BeeHappy
+  lines:
+  - Marvelous. With this, We shall dream of flowers till spring.
+  - Exactly what We needed. Our royal belly is now officially hibernation-ready.
+  - "Delightful! We\u2019ll be thinking about this cup the entire time We\u2019re
+    underground."
+  - "Perfect. You\u2019ve earned the rare honor of being in Our pre-nap memories."
+  - Splendid! If We wake up thinking of tea, it will be this cup.
+  isPlayerInteractable: 0

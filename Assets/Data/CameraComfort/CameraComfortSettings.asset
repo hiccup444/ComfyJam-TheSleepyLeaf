@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5be3e5216b463ab11feadad5efb9c2, type: 3}
+  m_Name: CameraComfortSettings
+  m_EditorClassIdentifier: 
+  data:
+    panMethod: 3
+    dragButton: 1
+    rmbReservedForInteractions: 1
+    edgePanEnabled: 0
+    edgeDeadzonePx: 16
+    panSpeed: 0.1
+    panAccelSeconds: 0.16
+    scrollIsVerticalPan: 0
+    zoomEnabled: 0
+    zoomMin: 1
+    zoomMax: 1.15
+    autoFocusWhileDragging: 0
+    autoFocusStrength: 0.3
+    autoFocusMaxSeconds: 10
+    inertiaEnabled: 1
+    inertia: 0.85
+    cameraWorldBounds:
+      serializedVersion: 2
+      x: -16
+      y: -15.6
+      width: 63.9
+      height: 37.2
+    motionSafePreset: 0
+    stationMode: 1
+    stationSnapToFirstOnStart: 1
+    stationBoundsPadding: 2
+    stationDefaultDuration: 2
+    stationWasdEnabled: 1
+    stationInputCooldownSeconds: 0.25
+    stationEdgeSwitchEnabled: 1
+    stationEdgeDeadzonePx: 8
+    stationEdgeCooldownSeconds: 3
+    stationProximity: 0.25
+    stationEdgeCornerMargin: 5

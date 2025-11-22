@@ -1,0 +1,194 @@
+AudioManager (JamesKJamKit)
+
+Tiny, battle-tested SFX/ambience service for Unity.
+Handles one-shot sound effects, UI clicks, and lightweight looping ambience with a small AudioSource pool and mixer-controlled volumes.
+
+Features
+
+✅ Singleton service (AudioManager.Instance)
+
+🎛️ Mixer integration for Master + SFX buses
+
+🧰 AudioSource pool (auto-grows when needed)
+
+🔁 Looping for ambience (2D or 3D via spatialBlend)
+
+🖱️ UI click helper (PlayUiClick())
+
+💾 SaveSettings integration (reacts to volume changes)
+
+🧩 Safe defaults: no play-on-awake, all sources routed to sfxGroup
+
+Requirements
+
+Unity (URP/any pipeline)
+
+An AudioMixer with exposed parameters:
+
+MASTER_VOL (Master bus)
+
+SFX_VOL (SFX bus)
+
+Optional: a SaveSettings system with:
+
+SaveSettings.Instance.Data.masterDb (float, dB)
+
+SaveSettings.Instance.Data.sfxDb (float, dB)
+
+SaveSettings.Instance.OnSettingsChanged event
+
+Inspector Reference
+
+Mixer: Reference to your project’s AudioMixer.
+
+Sfx Group: An AudioMixerGroup routed to your SFX bus.
+
+UI Click Clip: Optional default clip for UI interactions.
+
+Initial Pool Size: Prewarmed AudioSource count (auto-expands).
+
+Execution order is set to -9995 so this service is available very early.
+
+Quick Start
+
+Create/Configure Mixer
+
+Create an AudioMixer with a Master bus and SFX child bus.
+
+Right-click each bus’ Volume → Expose as parameter names:
+
+MASTER_VOL
+
+SFX_VOL
+
+Add AudioManager
+
+Add AudioManager to a scene object (e.g., _Global/Services).
+
+Assign Mixer and Sfx Group.
+
+(Optional) Assign a UI Click Clip.
+
+Hook Up SaveSettings (optional but recommended)
+
+Ensure SaveSettings.Instance.Data.masterDb and .sfxDb are in decibels (e.g., 0, -10, -80).
+
+When settings change, raise OnSettingsChanged(SettingKind.MasterVolume) / (SettingKind.SfxVolume).
+
+API
+One-shots (2D)
+AudioManager.Instance.PlayOneShot(myClip);               // full volume
+AudioManager.Instance.PlayOneShot(myClip, 0.6f);         // 60% volume
+
+Loops (ambience)
+// 2D ambience
+AudioSource loop = AudioManager.Instance.PlayLoop(cafeHumClip);
+
+// 3D ambience
+AudioSource spatialLoop = AudioManager.Instance.PlayLoop(windClip, spatial: true);
+
+// later…
+AudioManager.Instance.StopLoop(loop);
+
+UI clicks
+// Uses the configured uiClickClip (if set)
+AudioManager.Instance.PlayUiClick();
+
+// …or roll your own:
+AudioManager.Instance.PlayOneShot(myUiClick);
+
+How It Works
+
+Singleton: First instance wins; later duplicates destroy themselves.
+
+Pooling: Keeps a list of AudioSources under the manager.
+
+Grabs the first not playing source; if all are busy, creates one.
+
+Routing: Each source is assigned to Sfx Group automatically.
+
+Volumes: On awake + when SaveSettings signals, sets:
+
+mixer.SetFloat("MASTER_VOL", data.masterDb);
+
+mixer.SetFloat("SFX_VOL", data.sfxDb);
+
+All mixer values are expected in dB. Typical range: 0 (full) to -80 (mute).
+
+Best Practices
+
+Keep Master/SFX in dB in your settings UI.
+Convert slider 0–1 to dB with a curve (e.g., Mathf.Lerp(-80f, 0f, curve)).
+
+For 3D loops, set the AudioSource’s transform to your emitter position (parent the returned AudioSource.gameObject if needed).
+
+Keep short one-shots as 2D (spatialBlend=0) unless you explicitly need positional audio.
+
+Common Gotchas & Troubleshooting
+
+No sound?
+
+Ensure clips are assigned and not null.
+
+Check Mixer routing: SFX Group must be audible.
+
+Verify MASTER_VOL / SFX_VOL aren’t set to a very low dB (e.g., -80).
+
+UI click doesn’t play
+
+Set UI Click Clip in the Inspector or call PlayOneShot(customClip).
+
+Volume slider feels linear/harsh
+
+dB are logarithmic. Use an ease-in curve from mute (−80) to 0 dB.
+
+Too many sources?
+
+The pool auto-grows under heavy spam. Consider increasing Initial Pool Size to reduce allocations.
+
+Extending
+
+Categories: Add separate groups (e.g., UI, GameSFX, Ambience) with their own mixer params and helper methods.
+
+Fades: Add coroutine utilities to fade loops in/out.
+
+Addressables: Resolve AudioClips via Addressables before calling Play….
+
+Limits: Add a per-clip cooldown map to prevent spam.
+
+Example: Settings UI (dB sliders)
+// Slider value 0..1 -> dB using a friendly taper
+static float ToDb01(float t)
+{
+    // -80 dB (mute) to 0 dB (full), cubic to give more low-end control
+    float curved = Mathf.Pow(Mathf.Clamp01(t), 0.33f);
+    return Mathf.Lerp(-80f, 0f, curved);
+}
+
+public void OnMasterSliderChanged(float v01)
+{
+    var data = SaveSettings.Instance.Data;
+    data.masterDb = ToDb01(v01);
+    SaveSettings.Instance.CommitAndNotify(SettingKind.MasterVolume);
+}
+
+public void OnSfxSliderChanged(float v01)
+{
+    var data = SaveSettings.Instance.Data;
+    data.sfxDb = ToDb01(v01);
+    SaveSettings.Instance.CommitAndNotify(SettingKind.SfxVolume);
+}
+
+Lifecycle Notes
+
+Awake: establishes singleton, prewarms pool, applies volumes.
+
+OnEnable/OnDisable: subscribes/unsubscribes to SaveSettings.OnSettingsChanged.
+
+OnDestroy: clears Instance if this is the active service.
+
+License & Attribution
+
+You own your project code. If your jam rules require credit for tools/templates, credit JamesKJamKit – AudioManager. No third-party code is embedded here.
+
+v1.0.0 – Initial release: one-shots, loops (2D/3D), UI click, mixer volumes, pooling.

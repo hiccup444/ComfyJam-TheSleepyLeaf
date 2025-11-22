@@ -1,0 +1,39 @@
+**Overview**
+- Main scene (`Assets/Scenes/Game.unity`) drives camera motion through `CameraPanZoom2DPlus` on `Main Camera`; no other active movers or zoomers were found.
+- Drag-and-drop systems (`DragItem2D`, topping dispensers, tear interactions) rely on `Camera.main` and legacy `UnityEngine.Input`, while UI wiring uses the new `InputSystemUIInputModule`, so both input stacks must be balanced.
+- No scripts adjust orthographic size or field of view at runtime; mouse wheel is repurposed for vertical panning rather than zoom.
+- Camera behavior is gated by `GameManager.Instance.IsDayComplete()` and boosted by drag workflows, so future rigs must respect day-complete locks and drag boosts to avoid regressions.
+
+**Detected Camera Controllers**
+- `CameraPanZoom2DPlus` (`Assets/Scripts/CameraPanZoom2DPlus.cs`) on `Main Camera` in `Assets/Scenes/Game.unity` (1 instance).
+- `CameraFollowDuringDrag2D` (`Assets/Scripts/CameraFollowDuringDrag2D.cs`) present in code but no instances in scenes or prefabs; drag system will skip follow behavior unless this component is restored.
+- `DayNightBackground` (`Assets/Scripts/DayNightBackground.cs`) also sits on `Main Camera` in `Assets/Scenes/Game.unity` but only tints `Camera.backgroundColor` (no transform writes).
+
+**Summary of Input Paths**
+- Mouse: `CameraPanZoom2DPlus` wheel/middle-button/edge panning (`Assets/Scripts/CameraPanZoom2DPlus.cs:89,111,117,124,141`); tear and pouring interactions in `TeaPacket`, `Teabag`, `HotChocolatePourer` (`Assets/Scripts/WorldObjects/TeaStuff/TeaPacket.cs:283-316`, `Teabag.cs:470-497`, `HotChocolatePourer.cs:249-282`); topping spawning loop in `ToppingSlot` (`Assets/Scripts/WorldObjects/Mug/ToppingSlot.cs:80-82`).
+- Keyboard: Pause toggle on `Escape` (`Assets/Services/PauseInputListener.cs:15`); drag tilt keys A/D in `DragItem2D` (`Assets/Scripts/DragItem2D.cs:212-214`); debug pour key `B` in `SimpleToppingSpawner` (`Assets/Scripts/SimpleToppingSpawner.cs:99-106`).
+- Pointer events: `DragItem2D` implements `IPointerDown/Drag/Up` and talks to camera helpers, while `ToppingSlot` synthesizes pointer events for spawned toppings.
+- Input System (new): `GlobalSystems` prefab hosts `UnityEngine.InputSystem.UI.InputSystemUIInputModule` bound to `Assets/InputSystem_Actions.inputactions` (`Assets/Prefabs/Systems/GlobalSystems.prefab:215-220`); no gameplay scripts reference `InputAction` yet, so UI and gameplay rely on different stacks.
+- Touch: Only configured via the input actions asset; no runtime touch reads were found in code.
+
+**Per-Controller Detail**
+- **CameraPanZoom2DPlus** (`Assets/Scripts/CameraPanZoom2DPlus.cs`, `Main Camera` in `Assets/Scenes/Game.unity`). Movement type: direct translation of `transform.position` for wheel panning, mid-mouse drag, and edge-scroll smoothing. Update order: `Update` (default execution order). Dependencies: `GameManager.Instance.IsDayComplete()` gate (`Assets/Scripts/CameraPanZoom2DPlus.cs:75`), `EventSystem.current` raycast guard (`Assets/Scripts/CameraPanZoom2DPlus.cs:108,135`), optional drag boost via `DragItem2D.SetDraggingBoost`. Bounds/limits: serialized `minX/minY/maxX/maxY` clamp enforced per frame. Input: wheel delta, middle button, cursor position (`Assets/Scripts/CameraPanZoom2DPlus.cs:89,111,117,124,141`). Cursor styling optional via serialized texture. Write sites: `cam.orthographic = true;` (`Assets/Scripts/CameraPanZoom2DPlus.cs:61`), `transform.position += Vector3.up * _wheelVel * dt;` (`Assets/Scripts/CameraPanZoom2DPlus.cs:103`), `transform.position += delta * dragSpeed;` (`Assets/Scripts/CameraPanZoom2DPlus.cs:127`), `transform.position += (Vector3)_edgeVel * dt;` (`Assets/Scripts/CameraPanZoom2DPlus.cs:174`), clamp assignments (`Assets/Scripts/CameraPanZoom2DPlus.cs:205-208`). No zoom (orthographic size) mutations observed.
+- **CameraFollowDuringDrag2D** (`Assets/Scripts/CameraFollowDuringDrag2D.cs`, no active instances). Movement type: direct `transform.position` lerp toward a drag target with bounds clamp. Update order: `LateUpdate`, ensuring it overwrites any earlier frame positioning when enabled. Dependencies: `GameManager.Instance.IsDayComplete()` gate (`Assets/Scripts/CameraFollowDuringDrag2D.cs:27`), `DragItem2D` invokes `BeginFollow/EndFollow` (`Assets/Scripts/DragItem2D.cs:148,268`). Bounds/limits: serialized `minX/minY/maxX/maxY` clamp replicates pan bounds. Write sites: `cam.orthographic = true;` (`Assets/Scripts/CameraFollowDuringDrag2D.cs:17`), `desired.z = transform.position.z;` (`Assets/Scripts/CameraFollowDuringDrag2D.cs:32`), `transform.position = Vector3.Lerp(...);` (`Assets/Scripts/CameraFollowDuringDrag2D.cs:35`), clamp assignments (`Assets/Scripts/CameraFollowDuringDrag2D.cs:40-42`). If re-enabled alongside `CameraPanZoom2DPlus`, its `LateUpdate` pass will win after the pan script’s `Update`.
+- **Supporting systems touching the camera**. `DragItem2D` locates both camera helpers on startup and toggles them during drags (`Assets/Scripts/DragItem2D.cs:101-149,268`), including keyboard tilt at `Assets/Scripts/DragItem2D.cs:212-214`. `AudioManager` assumes `Camera.main` for spatial listener positioning (`Assets/Services/SFX/AudioManager.cs:286-287`). Multiple interactables rely on `Camera.main.ScreenToWorldPoint` (see Mouse summary) and will break if the modular suite removes or renames the main tag.
+
+**Conflicts & Risks**
+- If `CameraFollowDuringDrag2D` is reattached, its `LateUpdate` lerp will override any position written by `CameraPanZoom2DPlus.Update`, causing tug-of-war unless execution or enable order is managed.
+- Both camera helpers and drag systems are hard-coded to `Camera.main`; swapping to a virtual-camera stack without a tagged main camera will null-reference or disable drag boosts and tear detection.
+- Gameplay continues reading the legacy `Input` API while UI consumes the new Input System asset, risking divergent mappings or doubled input unless the modular suite mediates wheel/mouse states.
+- Mouse wheel currently pans vertically; introducing wheel-based zoom without updating `CameraPanZoom2DPlus.HandleWheelPan` will create conflicting scroll responses.
+- Edge-pan logic trusts `EventSystem.current` for UI blocking; replacing the event system without providing `IsPointerOverGameObject()` will leave the camera moving under UI.
+
+**Integration Plan (no code)**
+- Disable switches: uncheck the `CameraPanZoom2DPlus` component or zero its serialized speeds during rollout; also toggle `edgePanEnabled` and `allowEdgePanWhileDragging` to pause automation without removing the script.
+- Safe hook points: intercept `DragItem2D` drag lifecycle (`OnPointerDown`/`OnPointerUp`) and the `SetDraggingBoost` call to mirror boosts into the modular rig; `CameraFollowDuringDrag2D.BeginFollow`/`EndFollow` can be replaced with new rig logic if a stub implementing the same public API is provided.
+- Recommended execution order: if coexisting temporarily, run the modular rig in `LateUpdate` after disabling `CameraFollowDuringDrag2D` to ensure it wins final pose while leaving `CameraPanZoom2DPlus` enabled for features being ported feature-by-feature.
+- Minimal shim ideas: introduce a read-only service that exposes the current camera target/bounds expected by `DragItem2D` and interactables (e.g., scriptable object or singleton providing `ScreenToWorldPoint` wrapper) so the modular suite can swap camera providers without touching consumers.
+
+**Quick Checks**
+- Test `Assets/Scenes/Game.unity` focusing on `Main Camera` (toggle `CameraPanZoom2DPlus` booleans and observe drag boosts); verify `Assets/Scenes/MainMenu.unity` stays stable as a baseline with no movers.
+- Motion-Safe Mode: for a playtest that freezes camera motion, disable the `CameraPanZoom2DPlus` component on `Main Camera`, flip `edgePanEnabled` and `allowEdgePanWhileDragging` off, and leave `CameraFollowDuringDrag2D` detached; this keeps drag systems functional while the camera stays parked for instrumentation.

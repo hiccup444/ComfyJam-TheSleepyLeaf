@@ -1,0 +1,1398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1280495e11c505842bb023499f9e9c25, type: 3}
+  m_Name: Autumn Breeze v1.00 EB_MidiData
+  m_EditorClassIdentifier: Assembly-CSharp::JamesKJamKit.Services.Music.MidiTrackData
+  audioClip: {fileID: 8300000, guid: 542b429cd98cc6242816a4551bf7a467, type: 3}
+  trackDurationSeconds: 162.4633
+  notes:
+  - timeSeconds: 14.771139
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 14.771139
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 15.463446
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 18.463444
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 18.463444
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 19.15575
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 22.155746
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 22.155746
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 22.848055
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 25.848051
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 25.848051
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 26.540358
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 29.540356
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 29.540356
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 30.232662
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 33.23266
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 33.23266
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 33.924965
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 36.924965
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 36.924965
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 37.61727
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 40.617268
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 40.617268
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 40.617268
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 40.617268
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 41.309574
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 41.540344
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 41.540344
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 42.46342
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 42.46342
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 43.848034
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 43.848034
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 44.30957
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 44.30957
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 44.30957
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 45.001877
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 45.001877
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 46.155724
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 47.0788
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 47.540337
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 48.001877
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 48.001877
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 48.001877
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 48.694183
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 48.694183
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 50.771103
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 51.23264
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 51.69418
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 51.69418
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 51.69418
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 52.386486
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 52.386486
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 53.540333
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 54.924946
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 55.386482
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 55.386482
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 55.386482
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 56.07879
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 59.07879
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 59.07879
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 59.07879
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 59.771095
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 59.771095
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 60.92494
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 61.848015
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 62.30955
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 62.77109
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 62.77109
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 62.77109
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 63.463398
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 63.463398
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 65.54032
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 66.001854
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 66.463394
+    spawnPointIndex: 5
+    noteTypeIndex: 2
+    intensity: 0.70866144
+  - timeSeconds: 66.463394
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 66.463394
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 67.1557
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 67.1557
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 68.30955
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 69.69416
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 70.1557
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 70.1557
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 70.1557
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 70.1557
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 70.1557
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 70.84801
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 71.07877
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 71.07877
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 72.001854
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 72.001854
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 73.38647
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 73.38647
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 73.848
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 73.848
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 73.848
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 73.848
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 73.848
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 73.848
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 73.848
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 77.540306
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 81.23261
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 84.92491
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 88.61722
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 89.309525
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 89.309525
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 90.00183
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 90.00183
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 92.309525
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 92.309525
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 92.309525
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 92.309525
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 92.309525
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 92.309525
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 92.309525
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 93.00183
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 93.00183
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 93.69414
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 93.69414
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 96.00182
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 96.00182
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 96.00182
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 96.00182
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 96.00182
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 96.00182
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 96.00182
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 96.69414
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 96.69414
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 97.386444
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 97.386444
+    spawnPointIndex: 2
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 99.69413
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 99.69413
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 100.38644
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 100.38644
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 101.07874
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 101.07874
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 101.54028
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 102.463356
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 103.38644
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 103.38644
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 103.38644
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 103.38644
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 103.38644
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 104.07874
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 104.07874
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 104.07874
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 105.23259
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 106.15566
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 106.6172
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 107.078735
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 107.078735
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 107.078735
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 107.078735
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 107.078735
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 107.77105
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 107.77105
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 107.77105
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 109.84797
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 110.3095
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 110.77104
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 110.77104
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 110.77104
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 110.77104
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 110.77104
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 111.46335
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 111.46335
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 111.46335
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 112.617195
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 114.00181
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 114.46335
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 114.46335
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 114.46335
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 114.46335
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 114.46335
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 115.155655
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 115.155655
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 118.15565
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 118.15565
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 118.15565
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 118.15565
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 118.15565
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 118.84796
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 118.84796
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 118.84796
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 120.0018
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 120.92488
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 121.38641
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 121.84795
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 121.84795
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 121.84795
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 121.84795
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 121.84795
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 122.54026
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 122.54026
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 122.54026
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 124.61718
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 125.07872
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 125.54026
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 125.54026
+    spawnPointIndex: 5
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 125.54026
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 125.54026
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 125.54026
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 126.23257
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 126.23257
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 126.23257
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 127.38641
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 128.77103
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 129.23256
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 129.23256
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 129.23256
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 129.23256
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 129.23256
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 129.23256
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 129.23256
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 129.92487
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 129.92487
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 130.15564
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 130.15564
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 131.07872
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 131.07872
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 132.46333
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 132.46333
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 132.92487
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 132.92487
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 132.92487
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 132.92487
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 132.92487
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 133.61717
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 133.61717
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 133.61717
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 134.77103
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 135.69409
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 136.15564
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 136.61717
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 136.61717
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 136.61717
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 136.61717
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 136.61717
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 137.30948
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 137.30948
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 137.30948
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 139.3864
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 139.84793
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 140.30948
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 140.30948
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 140.30948
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 140.30948
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 140.30948
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 141.00179
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 141.00179
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 141.00179
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 142.15562
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 143.54024
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 144.00179
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 144.00179
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 144.00179
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 144.00179
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 144.00179
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 144.69409
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 144.69409
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 147.69408
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 147.69408
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 147.69408
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 147.69408
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 147.69408
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 148.38638
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 148.38638
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 148.38638
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 149.54024
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 150.46332
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 150.92485
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 151.38638
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 151.38638
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 151.38638
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 151.38638
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 151.38638
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 152.07869
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 152.07869
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 152.07869
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 154.15561
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 154.61716
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 155.07869
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 155.07869
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 155.07869
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 155.07869
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 155.07869
+    spawnPointIndex: 5
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 155.771
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 155.771
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 155.771
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 156.92485
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 158.30946
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.78740156
+  - timeSeconds: 158.771
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 158.771
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 158.771
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 158.771
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 158.771
+    spawnPointIndex: 4
+    noteTypeIndex: 2
+    intensity: 0.78740156
+  - timeSeconds: 158.771
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 158.771
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 159.4633
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 159.4633
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.7559055
+  - timeSeconds: 159.69408
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 159.69408
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 160.61714
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 160.61714
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 162.00175
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.78740156
+  - timeSeconds: 162.00175
+    spawnPointIndex: 0
+    noteTypeIndex: 0
+    intensity: 0.62204725
+  - timeSeconds: 162.4633
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 4
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 3
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 1
+    noteTypeIndex: 0
+    intensity: 0.62992126
+  - timeSeconds: 162.4633
+    spawnPointIndex: 2
+    noteTypeIndex: 1
+    intensity: 0.62992126
+  spawnPointCount: 7
+  minMidiNote: 48
+  maxMidiNote: 84
+  sourceMidiFile: The Sleepy Leaf Autumn Breeze v1.00 EB.midi
+  parseDate: 2025-11-07 17:02:51

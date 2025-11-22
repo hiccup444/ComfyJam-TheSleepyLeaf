@@ -1,0 +1,1582 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-domain-script="6e91be4c-3145-4ea2-aa64-89d716064836" charset="UTF-8" data-dlayer-ignore="true" data-document-language="true"></script>
+    <script>function OptanonWrapper(){}</script>
+    <script> 
+      window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        event: 'dataLayer-initialized',
+        user: {
+          user_unity_id: undefined,
+          user_logged_in: 'no'
+        },  
+        environment: {
+          environment_locale: undefined,
+          environment_currency: undefined
+        }
+      });
+    </script>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5V25JL6');</script>
+    <script type="text/javascript">thisPackageMetaData = { name: "com.unity.render-pipelines.universal", version: "17.0.4", displayTitle:"Universal Render Pipeline 17.0.4", lang: "en" };</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+
+      <title>Class Light2D
+ | Universal Render Pipeline | 17.0.4 </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class Light2D
+ | Universal Render Pipeline | 17.0.4 ">
+      <meta name="generator" content="docfx 2.70.0 via com.unity.package-manager-doctools@3.9.2-preview on Saturday, November 1, 2025">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../styles/icons.css">
+      <link rel="stylesheet" href="../styles/version-switcher.css">
+      <link rel="stylesheet" href="../styles/language-switcher.css">
+      <link rel="stylesheet" href="../styles/unity.legal.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+      <meta property="unity:packageID" content="com.unity.render-pipelines.universal">
+      <meta property="unity:packageTitle" content="Universal Render Pipeline | 17.0.4">
+      <meta property="unity:copyTitle" content="Copy">
+      <meta property="unity:copyConfirmMessage" content="Copied">
+      <meta property="unity:copyIcon" content="">
+      <meta property="unity:copyConfirmIcon" content="">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+    <meta property="unity:image-zoom-threshold" content="1200">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V25JL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a aria-label="Go to the home page" class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+                  <div class="back-to-unity-group">
+                    <a class="back-to-unity" href="http://docs.unity3d.com/">docs.unity3d.com</a>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <!-- Unity Customization: Remove content of breadcrumb bar. This space is used for version and language switchers
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+            -->
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+          <div id="unity_breadcrumb_placeholder"></div>
+            <article class="content wrap" id="_content" data-uid="UnityEngine.Rendering.Universal.Light2D">
+
+
+
+  <h1 id="UnityEngine_Rendering_Universal_Light2D" data-uid="UnityEngine.Rendering.Universal.Light2D" class="text-break">Class Light2D
+</h1>
+  <div class="markdown level0 summary"><p>Class <code>Light2D</code> is a 2D light which can be used with the 2D Renderer.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance collapsible show-bottom">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.html">Component</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+    <div class="level4"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+    <div class="level5"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/U2D.Light2DBase.html">Light2DBase</a></div>
+    <div class="level6"><span class="xref">Light2D</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ISerializationCallbackReceiver.html">ISerializationCallbackReceiver</a></div>
+  </div>
+  <div class="inheritedMembers collapsible">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.CancelInvoke.html">MonoBehaviour.CancelInvoke()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.StopCoroutine.html">MonoBehaviour.StopCoroutine(Coroutine)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.StopAllCoroutines.html">MonoBehaviour.StopAllCoroutines()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour-destroyCancellationToken.html">MonoBehaviour.destroyCancellationToken</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour-useGUILayout.html">MonoBehaviour.useGUILayout</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour-didStart.html">MonoBehaviour.didStart</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour-didAwake.html">MonoBehaviour.didAwake</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour-runInEditMode.html">MonoBehaviour.runInEditMode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour-enabled.html">Behaviour.enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour-isActiveAndEnabled.html">Behaviour.isActiveAndEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
+    </div>
+    <div>
+      <span class="xref">Component.TryGetComponent&lt;T&gt;(out T)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.GetComponentIndex.html">Component.GetComponentIndex()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.CompareTag.html">Component.CompareTag(TagHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-transform.html">Component.transform</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-gameObject.html">Component.gameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-tag.html">Component.tag</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.GetInstanceID.html">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <span class="xref">Object.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.InstantiateAsync&lt;T&gt;(T, Transform, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, Vector3, Quaternion, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Transform, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">Object.InstantiateAsync&lt;T&gt;(T, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">Object.InstantiateAsync&lt;T&gt;(T, Vector3, Quaternion, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, Vector3, Quaternion, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.InstantiateAsync&lt;T&gt;(T, int, ReadOnlySpan&lt;Vector3&gt;, ReadOnlySpan&lt;Quaternion&gt;, InstantiateParameters, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Scene)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, InstantiateParameters)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, InstantiateParameters)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.Destroy.html">Object.Destroy(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.DestroyImmediate.html">Object.DestroyImmediate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.DontDestroyOnLoad.html">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsByType&lt;T&gt;(FindObjectsInactive, FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindFirstObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindAnyObjectByType&lt;T&gt;(FindObjectsInactive)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.ToString.html">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-name.html">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object-hideFlags.html">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6 id="namespace"><strong>Namespace</strong>: <a class="xref" href="UnityEngine.html">UnityEngine</a>.<a class="xref" href="UnityEngine.Rendering.html">Rendering</a>.<a class="xref" href="UnityEngine.Rendering.Universal.html">Universal</a></h6>
+  <h6 id="assembly"><strong>Assembly</strong>: Unity.RenderPipelines.Universal.2D.Runtime.dll</h6>
+  <h5 id="UnityEngine_Rendering_Universal_Light2D_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">[ExecuteAlways]
+[DisallowMultipleComponent]
+[MovedFrom(true, &quot;UnityEngine.Experimental.Rendering.Universal&quot;, &quot;Unity.RenderPipelines.Universal.Runtime&quot;, null)]
+[AddComponentMenu(&quot;Rendering/2D/Light 2D&quot;)]
+[HelpURL(&quot;https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/index.html?subfolder=/manual/2DLightProperties.html&quot;)]
+public sealed class Light2D : Light2DBase, ISerializationCallbackReceiver</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_blendStyleIndex_" data-uid="UnityEngine.Rendering.Universal.Light2D.blendStyleIndex*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_blendStyleIndex" data-uid="UnityEngine.Rendering.Universal.Light2D.blendStyleIndex">blendStyleIndex</h4>
+  <div class="markdown level1 summary"><p>The lights current operation index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public int blendStyleIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_color_" data-uid="UnityEngine.Rendering.Universal.Light2D.color*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_color" data-uid="UnityEngine.Rendering.Universal.Light2D.color">color</h4>
+  <div class="markdown level1 summary"><p>The lights current color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public Color color { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.html">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_falloffIntensity_" data-uid="UnityEngine.Rendering.Universal.Light2D.falloffIntensity*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_falloffIntensity" data-uid="UnityEngine.Rendering.Universal.Light2D.falloffIntensity">falloffIntensity</h4>
+  <div class="markdown level1 summary"><p>Controls the brightness and distance of the fall off (edge) of the light</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float falloffIntensity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_intensity_" data-uid="UnityEngine.Rendering.Universal.Light2D.intensity*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_intensity" data-uid="UnityEngine.Rendering.Universal.Light2D.intensity">intensity</h4>
+  <div class="markdown level1 summary"><p>The lights current intensity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float intensity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_lightCookieSprite_" data-uid="UnityEngine.Rendering.Universal.Light2D.lightCookieSprite*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_lightCookieSprite" data-uid="UnityEngine.Rendering.Universal.Light2D.lightCookieSprite">lightCookieSprite</h4>
+  <div class="markdown level1 summary"><p>The Sprite that's used by the Sprite Light type to control the shape light</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public Sprite lightCookieSprite { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Sprite.html">Sprite</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_lightOrder_" data-uid="UnityEngine.Rendering.Universal.Light2D.lightOrder*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_lightOrder" data-uid="UnityEngine.Rendering.Universal.Light2D.lightOrder">lightOrder</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the light order. The lightOrder determines the order in which the lights are rendered onto the light textures.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public int lightOrder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_lightType_" data-uid="UnityEngine.Rendering.Universal.Light2D.lightType*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_lightType" data-uid="UnityEngine.Rendering.Universal.Light2D.lightType">lightType</h4>
+  <div class="markdown level1 summary"><p>The light's current type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public Light2D.LightType lightType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rendering.Universal.Light2D.html">Light2D</a>.<a class="xref" href="UnityEngine.Rendering.Universal.Light2D.LightType.html">LightType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_normalMapDistance_" data-uid="UnityEngine.Rendering.Universal.Light2D.normalMapDistance*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_normalMapDistance" data-uid="UnityEngine.Rendering.Universal.Light2D.normalMapDistance">normalMapDistance</h4>
+  <div class="markdown level1 summary"><p>The simulated z distance of the light from the surface used in normal map calculation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float normalMapDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_normalMapQuality_" data-uid="UnityEngine.Rendering.Universal.Light2D.normalMapQuality*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_normalMapQuality" data-uid="UnityEngine.Rendering.Universal.Light2D.normalMapQuality">normalMapQuality</h4>
+  <div class="markdown level1 summary"><p>Returns the calculation quality for the normal map rendering. Please refer to NormalMapQuality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public Light2D.NormalMapQuality normalMapQuality { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rendering.Universal.Light2D.html">Light2D</a>.<a class="xref" href="UnityEngine.Rendering.Universal.Light2D.NormalMapQuality.html">NormalMapQuality</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_overlapOperation_" data-uid="UnityEngine.Rendering.Universal.Light2D.overlapOperation*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_overlapOperation" data-uid="UnityEngine.Rendering.Universal.Light2D.overlapOperation">overlapOperation</h4>
+  <div class="markdown level1 summary"><p>Controls the overlap operation mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public Light2D.OverlapOperation overlapOperation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityEngine.Rendering.Universal.Light2D.html">Light2D</a>.<a class="xref" href="UnityEngine.Rendering.Universal.Light2D.OverlapOperation.html">OverlapOperation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_pointLightInnerAngle_" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightInnerAngle*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_pointLightInnerAngle" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightInnerAngle">pointLightInnerAngle</h4>
+  <div class="markdown level1 summary"><p>The inner angle of the point light shape. The bigger the angle, the wider the gap.
+The gap between the innner and outer angle will determine the size of the light's penumbra.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float pointLightInnerAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_pointLightInnerRadius_" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightInnerRadius*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_pointLightInnerRadius" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightInnerRadius">pointLightInnerRadius</h4>
+  <div class="markdown level1 summary"><p>The radius of the inner light area that has full brightness.
+The gap between the inner and outer radius will determine the size of the light's penumbra.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float pointLightInnerRadius { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_pointLightOuterAngle_" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightOuterAngle*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_pointLightOuterAngle" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightOuterAngle">pointLightOuterAngle</h4>
+  <div class="markdown level1 summary"><p>The angle that determins the shape of the inner light area.
+The gap between the innner and outer angle will determine the size of the light's penumbra.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float pointLightOuterAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_pointLightOuterRadius_" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightOuterRadius*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_pointLightOuterRadius" data-uid="UnityEngine.Rendering.Universal.Light2D.pointLightOuterRadius">pointLightOuterRadius</h4>
+  <div class="markdown level1 summary"><p>The outer radius that determines the size of the light.
+The gap between the inner and outer radius will determine the size of the light's penumbra.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float pointLightOuterRadius { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_renderVolumetricShadows_" data-uid="UnityEngine.Rendering.Universal.Light2D.renderVolumetricShadows*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_renderVolumetricShadows" data-uid="UnityEngine.Rendering.Universal.Light2D.renderVolumetricShadows">renderVolumetricShadows</h4>
+  <div class="markdown level1 summary"><p>Returns if volumetric shadows should be rendered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool renderVolumetricShadows { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shadowIntensity_" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowIntensity*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shadowIntensity" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowIntensity">shadowIntensity</h4>
+  <div class="markdown level1 summary"><p>Specifies the darkness of the shadow</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shadowIntensity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shadowSoftness_" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowSoftness*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shadowSoftness" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowSoftness">shadowSoftness</h4>
+  <div class="markdown level1 summary"><p>Specifies the softness of the soft shadow</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shadowSoftness { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shadowSoftnessFalloffIntensity_" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowSoftnessFalloffIntensity*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shadowSoftnessFalloffIntensity" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowSoftnessFalloffIntensity">shadowSoftnessFalloffIntensity</h4>
+  <div class="markdown level1 summary"><p>Controls the falloff for soft shadows</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shadowSoftnessFalloffIntensity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shadowVolumeIntensity_" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowVolumeIntensity*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shadowVolumeIntensity" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowVolumeIntensity">shadowVolumeIntensity</h4>
+  <div class="markdown level1 summary"><p>Specifies the darkness of the shadow</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shadowVolumeIntensity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shadowsEnabled_" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowsEnabled*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shadowsEnabled" data-uid="UnityEngine.Rendering.Universal.Light2D.shadowsEnabled">shadowsEnabled</h4>
+  <div class="markdown level1 summary"><p>Specifies that the shadows are enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool shadowsEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shapeLightFalloffSize_" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightFalloffSize*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shapeLightFalloffSize" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightFalloffSize">shapeLightFalloffSize</h4>
+  <div class="markdown level1 summary"><p>The size of the fall-off area. Bigger value corresponds to bigger fall off size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shapeLightFalloffSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shapeLightParametricAngleOffset_" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightParametricAngleOffset*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shapeLightParametricAngleOffset" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightParametricAngleOffset">shapeLightParametricAngleOffset</h4>
+  <div class="markdown level1 summary"><p>The offset of the shape from the light's origin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shapeLightParametricAngleOffset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shapeLightParametricRadius_" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightParametricRadius*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shapeLightParametricRadius" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightParametricRadius">shapeLightParametricRadius</h4>
+  <div class="markdown level1 summary"><p>The size of the shape.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float shapeLightParametricRadius { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shapeLightParametricSides_" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightParametricSides*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shapeLightParametricSides" data-uid="UnityEngine.Rendering.Universal.Light2D.shapeLightParametricSides">shapeLightParametricSides</h4>
+  <div class="markdown level1 summary"><p>The number of sides in the parametric shape.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public int shapeLightParametricSides { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_shapePath_" data-uid="UnityEngine.Rendering.Universal.Light2D.shapePath*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_shapePath" data-uid="UnityEngine.Rendering.Universal.Light2D.shapePath">shapePath</h4>
+  <div class="markdown level1 summary"><p>Returns the path that represents the shape light. Values are in object space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public Vector3[] shapePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html">Vector3</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_targetSortingLayers_" data-uid="UnityEngine.Rendering.Universal.Light2D.targetSortingLayers*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_targetSortingLayers" data-uid="UnityEngine.Rendering.Universal.Light2D.targetSortingLayers">targetSortingLayers</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the target sorting layers for the light. Contains an array of sorting layer IDs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public int[] targetSortingLayers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_volumeIntensity_" data-uid="UnityEngine.Rendering.Universal.Light2D.volumeIntensity*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_volumeIntensity" data-uid="UnityEngine.Rendering.Universal.Light2D.volumeIntensity">volumeIntensity</h4>
+  <div class="markdown level1 summary"><p>Controls the visibility of the light's volume</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public float volumeIntensity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_volumetricEnabled_" data-uid="UnityEngine.Rendering.Universal.Light2D.volumetricEnabled*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_volumetricEnabled" data-uid="UnityEngine.Rendering.Universal.Light2D.volumetricEnabled">volumetricEnabled</h4>
+  <div class="markdown level1 summary"><p>Enables or disables the light's volume</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool volumetricEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_volumetricShadowsEnabled_" data-uid="UnityEngine.Rendering.Universal.Light2D.volumetricShadowsEnabled*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_volumetricShadowsEnabled" data-uid="UnityEngine.Rendering.Universal.Light2D.volumetricShadowsEnabled">volumetricShadowsEnabled</h4>
+  <div class="markdown level1 summary"><p>Specifies that the volumetric shadows are enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool volumetricShadowsEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_AddTargetSortingLayer_" data-uid="UnityEngine.Rendering.Universal.Light2D.AddTargetSortingLayer*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_AddTargetSortingLayer_System_Int32_" data-uid="UnityEngine.Rendering.Universal.Light2D.AddTargetSortingLayer(System.Int32)">AddTargetSortingLayer(int)</h4>
+  <div class="markdown level1 summary"><p>Adds a target sorting layer to the light.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool AddTargetSortingLayer(int layerID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">layerID</span></td>
+        <td><p>The sorting layer ID to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Returns true if the sorting layer is added. Returns false if the layer ID is invalid or has already been added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_AddTargetSortingLayer_" data-uid="UnityEngine.Rendering.Universal.Light2D.AddTargetSortingLayer*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_AddTargetSortingLayer_System_String_" data-uid="UnityEngine.Rendering.Universal.Light2D.AddTargetSortingLayer(System.String)">AddTargetSortingLayer(string)</h4>
+  <div class="markdown level1 summary"><p>Adds a target sorting layer to the light.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool AddTargetSortingLayer(string layerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">layerName</span></td>
+        <td><p>The sorting layer name to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Returns true if the sorting layer is added. Returns false if the layer name is invalid or has already been added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_OnAfterDeserialize_" data-uid="UnityEngine.Rendering.Universal.Light2D.OnAfterDeserialize*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_OnAfterDeserialize" data-uid="UnityEngine.Rendering.Universal.Light2D.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <div class="markdown level1 summary"><p>OnAfterSerialize implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public void OnAfterDeserialize()</code></pre>
+  </div>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_OnBeforeSerialize_" data-uid="UnityEngine.Rendering.Universal.Light2D.OnBeforeSerialize*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_OnBeforeSerialize" data-uid="UnityEngine.Rendering.Universal.Light2D.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <div class="markdown level1 summary"><p>OnBeforeSerialize implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public void OnBeforeSerialize()</code></pre>
+  </div>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_RemoveTargetSortingLayer_" data-uid="UnityEngine.Rendering.Universal.Light2D.RemoveTargetSortingLayer*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_RemoveTargetSortingLayer_System_Int32_" data-uid="UnityEngine.Rendering.Universal.Light2D.RemoveTargetSortingLayer(System.Int32)">RemoveTargetSortingLayer(int)</h4>
+  <div class="markdown level1 summary"><p>Removes a target sorting layer from the light.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool RemoveTargetSortingLayer(int layerID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">layerID</span></td>
+        <td><p>The sorting layer ID to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Returns true if the sorting layer is removed. Returns false if the layer ID is invalid or doesn't exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_RemoveTargetSortingLayer_" data-uid="UnityEngine.Rendering.Universal.Light2D.RemoveTargetSortingLayer*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_RemoveTargetSortingLayer_System_String_" data-uid="UnityEngine.Rendering.Universal.Light2D.RemoveTargetSortingLayer(System.String)">RemoveTargetSortingLayer(string)</h4>
+  <div class="markdown level1 summary"><p>Removes a target sorting layer from the light.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public bool RemoveTargetSortingLayer(string layerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">layerName</span></td>
+        <td><p>The sorting layer name to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Returns true if the sorting layer is removed. Returns false if the layer name is invalid or doesn't exist.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="UnityEngine_Rendering_Universal_Light2D_SetShapePath_" data-uid="UnityEngine.Rendering.Universal.Light2D.SetShapePath*"></a>
+  <h4 id="UnityEngine_Rendering_Universal_Light2D_SetShapePath_UnityEngine_Vector3___" data-uid="UnityEngine.Rendering.Universal.Light2D.SetShapePath(UnityEngine.Vector3[])">SetShapePath(Vector3[])</h4>
+  <div class="markdown level1 summary"><p>Set the shape that represents the freeform light. Values are in object space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs syntax">public void SetShapePath(Vector3[] path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html">Vector3</a>[]</td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Array of Vector3 defining the shape.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ISerializationCallbackReceiver.html">ISerializationCallbackReceiver</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="onetrust-inset">
+        
+      	
+      	Copyright © 2025 Unity Technologies &mdash; <a href="https://docs.unity3d.com/Manual/TermsOfUse.html">Trademarks and terms of use</a><br>
+              <ul class="unity-footer-menu-legal">
+                    <li><a href="https://unity.com/legal">Legal</a></li>
+                    <li><a href="https://unity.com/legal/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="https://unity.com/legal/cookie-policy">Cookie Policy</a></li>
+                    <li><a href="https://unity.com/legal/do-not-sell-my-personal-information">Do Not Sell or Share My Personal Information</a></li>
+                    <li><a id="ot-sdk-btn" class="ot-sdk-show-settings" href="javascript:void(0);">Your Privacy Choices (Cookie Settings)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/version-switcher.js"></script>
+    <script type="text/javascript" src="../styles/language-switcher.js"></script>
+    <script type="text/javascript" src="../styles/metadata-collector.js"></script>
+    <script type="text/javascript" src="../styles/PMDT.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </body>
+</html>

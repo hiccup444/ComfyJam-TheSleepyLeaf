@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - PourSurface
+  - CupSurface
+  - CupLiquid
+  - Cup
+  - DispenserSocket
+  - ParkingSocket
+  - Handoff
+  - Milk
+  - IceScoop
+  - IceBucket
+  - FireWood
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - CupLiquidSurface
+  - Water
+  - UI
+  - LiquidStream
+  - Socket
+  - Cup
+  - String
+  - TipJar
+  - Acorn
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 21809881
+    locked: 0
+  - name: PropsBack
+    uniqueID: 1328491165
+    locked: 0
+  - name: Stations-Mug
+    uniqueID: 4241480515
+    locked: 0
+  - name: Toppings
+    uniqueID: 3390110979
+    locked: 0
+  - name: HeldItems
+    uniqueID: 1086531429
+    locked: 0
+  - name: PropsFront
+    uniqueID: 4136535479
+    locked: 0
+  - name: WorldspaceUI
+    uniqueID: 2017847159
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7

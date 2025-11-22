@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63ce170ff214651ab0405b05945517e, type: 3}
+  m_Name: Hot_Peppermint_Tea_Milk
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  tea: {fileID: 11400000, guid: c5936613d4054313801b4ea2afd090d2, type: 2}
+  requiredWater: 1
+  requiresFull: 1
+  brewedRequired: 1
+  milkRequiredOverride: 1
+  milkAllowedKinds: 0100000002000000
+  sugarRequired: 0
+  iceRequired: 0
+  minIceChips: 0
+  requiredToppings: []
+  displayName: Hot Peppermint Tea - Milk
+  icon: {fileID: 8648580277532323264, guid: 612d928716ec00d49a20a9d6dc930472, type: 3}

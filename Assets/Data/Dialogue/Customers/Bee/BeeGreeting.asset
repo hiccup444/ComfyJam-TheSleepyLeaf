@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8190e47fb502479ce5535f0d3cb00, type: 3}
+  m_Name: BeeGreeting
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: BeeGreeting
+  lines:
+  - We are nearly ready for Our long nap. Brew Us something worthy of a final waking
+    sip.
+  - Greetings. This is Our last royal outing before We burrow in. Make it cozy.
+  - Ahh, the tea tree. Just what We need before months of very important sleeping.
+  - "We\u2019re fattening up for hibernation. Please assist with something warm and
+    wonderful."
+  - "One more perfect cup, then We vanish into the moss. No pressure\u2026 but also,
+    some pressure."
+  isPlayerInteractable: 0

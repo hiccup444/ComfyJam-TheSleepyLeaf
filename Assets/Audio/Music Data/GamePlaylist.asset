@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b1bf6f2c00146469c007e4ebe1aafa1, type: 3}
+  m_Name: GamePlaylist
+  m_EditorClassIdentifier: Assembly-CSharp::JamesKJamKit.Services.Music.MusicPlaylist
+  defaultMixerGroup: {fileID: -6613366150265500282, guid: c64c961a524c4a6eb923df77842ff5ae, type: 2}
+  shuffle: 1
+  tracks:
+  - clip: {fileID: 8300000, guid: 542b429cd98cc6242816a4551bf7a467, type: 3}
+    midiData: {fileID: 11400000, guid: 994db91b0705682488bc23e12523a9d0, type: 2}
+    mixerGroupOverride: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 1416062fe14a1174abdaea1f237a6d54, type: 3}
+    midiData: {fileID: 11400000, guid: 9c819acc80d2ed84da187dbc69e57de2, type: 2}
+    mixerGroupOverride: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7975c6d19c4d8b34b9053ffa91e54a89, type: 3}
+    midiData: {fileID: 11400000, guid: e0711de671ab9cf41822463413aa00ac, type: 2}
+    mixerGroupOverride: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b2d4b3ae9bb4fe645bd59ea99b34d924, type: 3}
+    midiData: {fileID: 11400000, guid: 926d370a8a887cb4a9d9819c9af10554, type: 2}
+    mixerGroupOverride: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 9bc3667be5f9d6c4fa0106889cfaa10a, type: 3}
+    midiData: {fileID: 11400000, guid: 2d439743ed3de2f40805507dadf886ac, type: 2}
+    mixerGroupOverride: {fileID: 0}
