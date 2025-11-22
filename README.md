@@ -47,11 +47,11 @@ Pour a cup, take a breath, and help the forest prepare for winter—one perfect 
 
 # Made by
 
-- **hiccup444** | Programmer | [https://github.com/hiccup444](github) | [https://itch.io/profile/hiccup444](itch)
-- **becool3000** | Programmer | [https://github.com/becool3000](github) | [https://itch.io/profile/jameskjams2learnhelp](itch)
-- **mxqiiu** | 2D Artist | [https://github.com/mxqiiu](github) | [https://itch.io/profile/mxqiiu](itch)
-- **Ameoba** | 2D Artist | [https://github.com/loves1ckle](github) | [https://itch.io/profile/ameobas](itch)
-- **sapphictealeaves** | Voice Actor | [https://github.com/sapphictealeaves](github) | [https://itch.io/profile/sapphictealeaves](itch)
-- **NobuNossu** UI/UX & localization | [https://github.com/NobuNossu](github) | [https://nobunossu.itch.io](itch)
-- **elizabeth-becker** | Music Composer | [https://github.com/elizabethbecker](github) | [https://ella3nchanted.itch.io](itch)
-- **Sherwatt** | SFX Design | [https://github.com/Sherwatt](github) | [https://itch.io/profile/sherwatt](itch)
+- **hiccup444** | Programmer | [github]([github](https://github.com/hiccup444)) | [itch]([itch](https://itch.io/profile/hiccup444))
+- **becool3000** | Programmer | [github]([github](https://github.com/becool3000)) | [itch]([itch](https://itch.io/profile/jameskjams2learnhelp))
+- **mxqiiu** | 2D Artist | [github]([github](https://github.com/mxqiiu)) | [itch]([itch](https://itch.io/profile/mxqiiu))
+- **Ameoba** | 2D Artist | [github]([github](https://github.com/loves1ckle)) | [itch]([itch](https://itch.io/profile/ameobas))
+- **sapphictealeaves** | Voice Actor | [github]([github](https://github.com/sapphictealeaves)) | [itch]([itch](https://itch.io/profile/sapphictealeaves))
+- **NobuNossu** UI/UX & localization | [github]([github](https://github.com/NobuNossu)) | [itch]([itch](https://nobunossu.itch.io))
+- **elizabeth-becker** | Music Composer | [github]([github](https://github.com/elizabethbecker)) | [itch]([itch](https://ella3nchanted.itch.io))
+- **Sherwatt** | SFX Design | [github]([github](https://github.com/Sherwatt)) | [itch]([itch](https://itch.io/profile/sherwatt))
