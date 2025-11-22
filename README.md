@@ -47,11 +47,12 @@ Pour a cup, take a breath, and help the forest prepare for winter—one perfect 
 
 # Made by
 
-- **hiccup444** | Programmer | [github]([github](https://github.com/hiccup444)) | [itch]([itch](https://itch.io/profile/hiccup444))
-- **becool3000** | Programmer | [github]([github](https://github.com/becool3000)) | [itch]([itch](https://itch.io/profile/jameskjams2learnhelp))
-- **mxqiiu** | 2D Artist | [github]([github](https://github.com/mxqiiu)) | [itch]([itch](https://itch.io/profile/mxqiiu))
-- **Ameoba** | 2D Artist | [github]([github](https://github.com/loves1ckle)) | [itch]([itch](https://itch.io/profile/ameobas))
-- **sapphictealeaves** | Voice Actor | [github]([github](https://github.com/sapphictealeaves)) | [itch]([itch](https://itch.io/profile/sapphictealeaves))
-- **NobuNossu** UI/UX & localization | [github]([github](https://github.com/NobuNossu)) | [itch]([itch](https://nobunossu.itch.io))
-- **elizabeth-becker** | Music Composer | [github]([github](https://github.com/elizabethbecker)) | [itch]([itch](https://ella3nchanted.itch.io))
-- **Sherwatt** | SFX Design | [github]([github](https://github.com/Sherwatt)) | [itch]([itch](https://itch.io/profile/sherwatt))
+- **hiccup444** | Programmer | [github](https://github.com/hiccup444) | [itch](https://itch.io/profile/hiccup444)
+- **becool3000** | Programmer | [github](https://github.com/becool3000) | [itch](https://itch.io/profile/jameskjams2learnhelp)
+- **mxqiiu** | 2D Artist | [github](https://github.com/mxqiiu) | [itch](https://itch.io/profile/mxqiiu)
+- **Ameoba** | 2D Artist | [github](https://github.com/loves1ckle) | [itch](https://itch.io/profile/ameobas)
+- **sapphictealeaves** | Voice Actor | [github](https://github.com/sapphictealeaves) | [itch](https://itch.io/profile/sapphictealeaves)
+- **NobuNossu** | UI/UX & localization | [github](https://github.com/NobuNossu) | [itch](https://nobunossu.itch.io)
+- **elizabeth-becker** | Music Composer | [github](https://github.com/elizabethbecker) | [itch](https://ella3nchanted.itch.io)
+- **Sherwatt** | SFX Design | [github](https://github.com/Sherwatt) | [itch](https://itch.io/profile/sherwatt)
+
